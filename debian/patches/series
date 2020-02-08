@@ -1,0 +1,4 @@
+30_nogetauxvalonbsd.diff
+35_hurd_enable_secure.diff
+41_kfreebsd_LOCAL_PEERCRED.diff
+enable_locale.diff
