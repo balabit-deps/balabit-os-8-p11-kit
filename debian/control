@@ -1,6 +1,7 @@
 Source: p11-kit
 Priority: optional
-Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Uploaders: Andreas Metzler <ametzler@debian.org>
 Build-Depends:
  debhelper-compat (= 12),

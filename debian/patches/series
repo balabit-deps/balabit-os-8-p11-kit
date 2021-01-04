@@ -2,3 +2,7 @@
 35_hurd_enable_secure.diff
 41_kfreebsd_LOCAL_PEERCRED.diff
 enable_locale.diff
+CVE-2020-29361-1.patch
+CVE-2020-29361-2.patch
+CVE-2020-29362.patch
+CVE-2020-29363.patch

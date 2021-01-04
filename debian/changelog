@@ -1,3 +1,24 @@
+p11-kit (0.23.20-1ubuntu0.1) focal-security; urgency=medium
+
+  * SECURITY UPDATE: multiple integer overflows
+    - debian/patches/CVE-2020-29361-1.patch: check for arithmetic overflows
+      before allocating in p11-kit/iter.c, p11-kit/lists.c,
+      p11-kit/proxy.c, p11-kit/rpc-message.c, p11-kit/rpc-message.h,
+      p11-kit/rpc-server.c, trust/index.c.
+    - debian/patches/CVE-2020-29361-2.patch: follow-up to arithmetic
+      overflow fix in common/compat.c, p11-kit/rpc-message.c.
+    - CVE-2020-29361
+  * SECURITY UPDATE: heap over-read in the RPC protocol
+    - debian/patches/CVE-2020-29362.patch: fix bounds check in
+      p11-kit/rpc-message.c.
+    - CVE-2020-29362
+  * SECURITY UPDATE: heap overflow in RPC protocol
+    - debian/patches/CVE-2020-29363.patch: check attribute length against
+      buffer size in p11-kit/rpc-message.c.
+    - CVE-2020-29363
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Mon, 04 Jan 2021 14:04:11 -0500
+
 p11-kit (0.23.20-1build1) focal; urgency=medium
 
   * No-change rebuild with fixed binutils on arm64.
